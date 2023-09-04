@@ -12,9 +12,9 @@ exports.loginAlert = (user) => {
     // console.log(user.email);
 
     nodeMailer.transporter.sendMail({
-        from: 'rajpbarmaiya@gmail.com',
+        from: 'raviranjan7301658047@gmail.com',
         to: user.email,
-        // to:"rpbarmaiya@gmail.com",
+        // to:"ravi7301658047@gmail.com",
         subject: "new login alert",
         html: '<h1>login loginAlert</h1>'
     },
